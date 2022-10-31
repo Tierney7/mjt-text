@@ -20,7 +20,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: "./index.html",
-        title: "JOTE"
+        title: "JATE"
       }),
       new InjectManifest({
         swSrc: "./src-sw.js",
@@ -30,7 +30,7 @@ module.exports = () => {
         fingerprints: false,
         inject: true,
         name: "Just the ONLY Text Editor",
-        short_name: "JOTE",
+        short_name: "JATE",
         description: "Offline compatible text editor",
         background_color: '#225ca3',
         theme_color: '#225ca3',
